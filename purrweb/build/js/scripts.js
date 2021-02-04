@@ -1,0 +1,1 @@
+document.getElementById("menu-button").onclick=function(){document.getElementById("list").classList.toggle("list-active")},document.addEventListener("DOMContentLoaded",function(t){var e=document.querySelector(".list");window.onresize=function(){window.innerWidth<800?e.classList.add("list"):e.classList.remove("list-active")}});
